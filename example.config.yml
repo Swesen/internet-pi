@@ -5,7 +5,7 @@ config_dir: '~'
 # Pi-hole configuration.
 pihole_enable: true
 pihole_hostname: pihole
-pihole_timezone: America/Chicago
+pihole_timezone: Europe/Stockholm
 pihole_password: "change-this-password"
 
 # Internet monitoring configuration.
@@ -16,7 +16,7 @@ monitoring_ping_interval: 5s
 monitoring_ping_hosts:  # [URL];[HUMAN_READABLE_NAME]
   - http://www.google.com/;google.com
   - https://github.com/;github.com
-  - https://www.apple.com/;apple.com
+  - https://www.youtube.com/;youtube.com
 
 # Shelly Plug configuration. (Also requires `monitoring_enable`)
 shelly_plug_enable: false
